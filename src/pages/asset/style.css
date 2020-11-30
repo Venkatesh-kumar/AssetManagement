@@ -1,0 +1,28 @@
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th {
+  width: 40%;
+}
+.asset-desc-container {
+  border: 1px solid grey;
+  margin: 2px;
+}
+
+.head-container {
+  background-color: rgb(79, 152, 235);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.head-text {
+  font-weight: bold;
+  color: white;
+}
+
+.body-container {
+  margin-bottom: 150px;
+}

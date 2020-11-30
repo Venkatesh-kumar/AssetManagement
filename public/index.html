@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+     <!--Materialize icons-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!--Google Fonts-->
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+     <!--AOS CSS-->
+     <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/css/materialize.min.css">
+     <title>Asset Management</title>
+  </head>
+  <body>
+    
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase.js"></script>
+
+     <!--Jquery-->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <!-- M JS-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <script>
+      $(document).ready(function(){
+      $('.modal').modal();
+      $('.sidenav').sidenav();
+      $('.slider').slider({full_width:true,height:600});
+      $('.parallax').parallax();
+      $(".dropdown-trigger").dropdown({ hover: true });
+      $('.carousel').carousel({
+        numVisible:7,
+        shift:50,
+        padding:50
+      });
+      $('.scrollspy').scrollSpy();
+      $('.tooltipped').tooltip();
+      $('.tabs').tabs();
+      $('select').formSelect();
+    	$('.fixed-action-btn').floatingActionButton();
+     });
+    </script>
+    <div id="root"></div>
+   
+  </body>
+</html>
